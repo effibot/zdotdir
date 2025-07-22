@@ -81,3 +81,5 @@ prompt "$ZSH_THEME[@]"
 
 # Always return success
 true
+
+alias fzf="fzf --preview 'batcat --color=always --line-range :500 {}' --bind 'enter:become(nano {})'"

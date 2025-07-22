@@ -80,3 +80,8 @@ zstyle ':zephyr:plugin:prompt' theme starship gruvbox-rainbow
 #
 
 zstyle ':plugin:ez-compinit' 'compstyle' 'zshzoo'
+
+#
+# SSH-Agent Forwarding
+#
+zstyle :omz:plugins:ssh-agent agent-forwarding yes
